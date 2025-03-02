@@ -1,0 +1,27 @@
+{
+  "name": "festivalmusica",
+  "version": "1.0.0",
+  "description": "Aprendiendo SASS y NPM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jezzoner/festivalmusica.git"
+  },
+  "keywords": [
+    "SASS",
+    "NPM",
+    "Gulp"
+  ],
+  "author": "Jesus Daniel Castro @Jezzoner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jezzoner/festivalmusica/issues"
+  },
+  "homepage": "https://github.com/Jezzoner/festivalmusica#readme",
+  "devDependencies": {
+    "sass": "^1.85.1"
+  }
+}
