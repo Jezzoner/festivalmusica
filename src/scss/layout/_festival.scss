@@ -2,5 +2,20 @@
 @use 'base/mixins' as m;
 
 .sobre-festival {
-    @include m.cpntenedor;
+    @include m.contenedor;
+
+    @include m.tablet {
+        @include m.grid(2)
+    }
+}
+
+.contenido-festival {
+    margin-top: 5rem;
+    h2 {
+        margin-bottom: 2rem;
+    }
+    .fecha {
+        color: v.$verde;
+        font-weight: 700;
+    }
 }
